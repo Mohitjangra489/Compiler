@@ -1,0 +1,72 @@
+.container{
+    height: 100vh;
+    padding: 5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#language{
+    padding: .5rem;
+}
+
+#language:hover{
+    border: .1rem solid #ffc107;
+}
+
+#language:active{
+    border: .1rem solid greenyellow;
+}
+
+.codeContainer{
+    height: 30rem;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 1px solid black;
+}
+
+#codeArea{
+    flex: 28;
+    resize: none;
+    outline: none;
+    padding-left: .5rem;
+}
+
+.counter{
+    flex: 2;
+    color: grey;
+    text-align: center;
+}
+
+.counter p{
+    margin: 0;
+}
+
+.outputConsole{
+    margin-top: 1rem;
+    background-color: black;
+    height: 12rem;
+    color: white;
+    padding: 1rem;
+}
+
+#compile{
+    background-color: #ffc107;
+    padding: .7rem;
+    margin-top: .7rem;
+    border: none;
+    border-radius: .3rem;
+    color: white;
+    cursor: pointer;
+}
+
+#editor { 
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
